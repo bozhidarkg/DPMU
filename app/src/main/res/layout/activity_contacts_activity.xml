@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+
+    <android.inputmethodservice.ExtractEditText
+        android:id="@+id/regUser"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="160dp"
+        android:hint="Username" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:id="@+id/regPass"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:hint="Password" />
+    <android.inputmethodservice.ExtractEditText
+        android:id="@+id/regConfPass"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Go back" />
+
+</LinearLayout>
